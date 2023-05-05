@@ -27,6 +27,18 @@ body {
     margin: 0;
 }
 
+#main-header .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 60px;
+}
+
+#main-header span {
+    color: #ff7000;
+}
+
 .wrapper {
-    
+    width: 900px;
+    margin: 0 auto;
 }
