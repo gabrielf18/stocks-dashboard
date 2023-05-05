@@ -38,6 +38,21 @@ body {
     color: #ff7000;
 }
 
+#main-header button {
+    margin: 0 0 0 auto;
+    background: none;
+    border: 2px solid #ff7000;
+    color: #ff7000;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+#main-header button:hover {
+    background: #000;
+    cursor: pointer;
+}
+
+
 .wrapper {
     width: 900px;
     margin: 0 auto;
