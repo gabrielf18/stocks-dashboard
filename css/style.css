@@ -65,7 +65,7 @@ body {
     bottom: 0;
     left: 0;
     background: #00000088;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -73,12 +73,30 @@ body {
 .modal .modal-content {
     width: 400px;
     min-width: 300px;
-    min-height: 200px;
+    min-height: 100px;
     background: #ff7000;
     border-radius: 20px;
     padding: 20px;
+    position: relative;
+}
+
+.modal .modal-content button.btn-close{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 20px;
+    border: none;
+    background: none;
+    color: #fff;
+    font-family: cursive;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .modal .modal-content h1 {
     margin: 0;
+}
+
+#add-stock form{
+    margin-top: 20px 0 0 0;
 }
