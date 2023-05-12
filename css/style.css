@@ -100,3 +100,24 @@ body {
 #add-stock form{
     margin-top: 20px 0 0 0;
 }
+
+#ticker-list{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+#ticker-list .ticker {
+    background: #474747;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ticker-list .ticker h2{
+    
+}
