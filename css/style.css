@@ -80,7 +80,7 @@ body {
     position: relative;
 }
 
-.modal .modal-content button.btn-close{
+.modal .modal-content button.btn-close, #ticker-list .ticker button.btn-close{
     position: absolute;
     top: 0px;
     right: 10px;
@@ -116,8 +116,27 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 #ticker-list .ticker h2{
-    
+    margin-top: 0;
+}
+
+#ticker-list .ticker p {
+    margin: 0;
+}
+
+#ticker p.increase{
+    color: #10a710;
+}
+
+#ticker p.decrease{
+    color: #ff3131;
+}
+
+#ticker-list .ticker button.btn-close{
+    line-height: 14px;
+    right: 5;
+    display: none;
 }
